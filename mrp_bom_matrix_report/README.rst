@@ -1,22 +1,26 @@
-.. image:: https://img.shields.io/badge/license-AGPLv3-blue.svg
-   :target: https://www.gnu.org/licenses/agpl.html
+.. image:: https://img.shields.io/badge/license-AGPL--3-blue.png
+   :target: https://www.gnu.org/licenses/agpl
    :alt: License: AGPL-3
 
-================================
-MRP BOM Structure Report Level 1
-================================
+=====================
+Report MRP BOM Matrix
+=====================
 
-This module adds a PDF report in BOM's to print just the first level of
-components. So, will not explode into the subcomponents.
+The Matrix Bill of Materials is a report that shows connections between all
+parents and all components.
+
+This report helps to identify the products that are used in lots of
+assemblies or finished products.
+
+If a raw material/assembly is used in many parent assemblies/finished
+products, it is likely that you'd want to make sure that you never run
+out of it.
+
 
 Usage
 =====
 
-To use this module, you need to:
-
-#. Go to 'Manufacturing / Master Data / Bill of Materials'
-#. Select a BOM and
-#. Go to 'Print > BOM Structure (Level 1)'
+* Go to 'Manufacturing / Master Data / BOM Matrix'.
 
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
@@ -37,13 +41,13 @@ Credits
 Images
 ------
 
-* Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
+* Odoo Community Association: `Icon <https://odoo-community.org/logo.png>`_.
 
 Contributors
 ------------
 
 * Jordi Ballester <jordi.ballester@eficent.com>
-* Miquel Raïch <miquel.raich@eficent.com>
+* Lois Rilo <lois.rilo@eficent.com>
 
 Maintainer
 ----------
